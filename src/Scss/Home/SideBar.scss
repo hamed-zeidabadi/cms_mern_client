@@ -1,0 +1,49 @@
+$background: #eaffd0;
+
+#sidebar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  background-color: $background;
+
+  // ---- search ----
+  & .search {
+    border: 1px solid red;
+    width: 95%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_input {
+      width: 250px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 5px;
+      border: 0.5px solid #95e1d3;
+    }
+  }
+  // ---- category ----
+  & .category {
+    border: 1px solid blue;
+    width: 95%;
+    height: 40vh;
+  }
+  // ---- popular ----
+  & .popular {
+    border: 1px solid green;
+    width: 95%;
+    height: 50vh;
+  }
+  // ---- tages ----
+  & .tagname {
+    border: 1px solid yellow;
+    width: 95%;
+    height: 20vh;
+  }
+}

@@ -1,6 +1,6 @@
 // import Scss Module
 @import "./css-reset.scss";
-@import "./bootstrap-grid.scss";
+
 
 //  --------------- Home ----------------
 @import "./Home/Home.scss";
@@ -26,4 +26,8 @@
   box-sizing: border-box;
   font-family: "IRANSans" !important ;
   direction: rtl;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
 }
