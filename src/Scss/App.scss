@@ -1,3 +1,29 @@
 // import Scss Module
 @import "./css-reset.scss";
 @import "./bootstrap-grid.scss";
+
+//  --------------- Home ----------------
+@import "./Home/Home.scss";
+@import "./Home/Content.scss";
+@import "./Home/SideBar.scss";
+
+// add font face
+@font-face {
+  font-family: IRANSans;
+  src: url(../Font/IRANSans.ttf);
+}
+
+@font-face {
+  font-family: IRANSans_Bold;
+  src: url(../Font/IRANSans_Bold.ttf);
+}
+
+//css global config
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IRANSans" !important ;
+  direction: rtl;
+}
