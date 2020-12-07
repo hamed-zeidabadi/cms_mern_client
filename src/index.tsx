@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./Scss/bootstrap-grid.css";
+import "./Scss/hover.css";
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

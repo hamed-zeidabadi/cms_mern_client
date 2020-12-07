@@ -9,16 +9,29 @@ const Category: React.FC<CategoryProps> = () => {
         <p>دسته بندی مطالب</p>
         <ul>
           <li>
-            <a href="#">جاوا اسکریپت</a>
+            <a href="#" className="hvr-underline-from-center">
+              جاوا اسکریپت
+            </a>
           </li>
           <li>
-            <a href="#">جاوا اسکریپت</a>
+            <a href="#" className="hvr-underline-from-center">
+              جاوا اسکریپت
+            </a>
           </li>
           <li>
-            <a href="#">جاوا اسکریپت</a>
+            <a href="#" className="hvr-underline-from-center">
+              جاوا اسکریپت
+            </a>
           </li>
           <li>
-            <a href="#">جاوا اسکریپت</a>
+            <a href="#" className="hvr-underline-from-center">
+              جاوا اسکریپت
+            </a>
+          </li>
+          <li>
+            <a href="#" className="hvr-underline-from-center">
+              جاوا اسکریپت
+            </a>
           </li>
         </ul>
       </div>
