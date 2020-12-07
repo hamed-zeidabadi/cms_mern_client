@@ -11,7 +11,7 @@ $background: #eaffd0;
 
   // ---- search ----
   & .search {
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 95%;
     height: 30vh;
     display: flex;
@@ -26,13 +26,45 @@ $background: #eaffd0;
       text-align: center;
       border-radius: 5px;
       border: 0.5px solid #95e1d3;
+      position: relative;
+    }
+    &_icon {
+      position: absolute;
+      right: 310px;
+      font-size: 1em;
+      opacity: 0.4;
     }
   }
   // ---- category ----
   & .category {
-    border: 1px solid blue;
+    // border: 1px solid blue;
     width: 95%;
     height: 40vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-right: 150px;
+    & p {
+    }
+    & ul {
+      margin-right: 20px;
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      li {
+        margin-top: 10px;
+        a {
+          color: black;
+          font-size: 0.8em;
+          text-decoration: none;
+          
+        }
+      }
+    }
   }
   // ---- popular ----
   & .popular {

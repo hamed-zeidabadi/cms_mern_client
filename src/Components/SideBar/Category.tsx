@@ -6,13 +6,20 @@ const Category: React.FC<CategoryProps> = () => {
   return (
     <>
       <div className="category">
-        <p>دسته بندی</p>
+        <p>دسته بندی مطالب</p>
         <ul>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
+          <li>
+            <a href="#">جاوا اسکریپت</a>
+          </li>
+          <li>
+            <a href="#">جاوا اسکریپت</a>
+          </li>
+          <li>
+            <a href="#">جاوا اسکریپت</a>
+          </li>
+          <li>
+            <a href="#">جاوا اسکریپت</a>
+          </li>
         </ul>
       </div>
     </>
