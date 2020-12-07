@@ -1,4 +1,5 @@
 $background: #eaffd0;
+$hover: #f38181;
 
 #sidebar {
   width: 100%;
@@ -27,8 +28,15 @@ $background: #eaffd0;
       border-radius: 5px;
       border: 0.5px solid #95e1d3;
       position: relative;
+      &:active,
+      &:focus {
+        outline: none !important;
+        border: 2px solid $hover;
+        box-shadow: 0 0 10px #719ece;
+      }
     }
     &_icon {
+      color: $hover !important;
       position: absolute;
       right: 310px;
       font-size: 1em;
@@ -47,6 +55,7 @@ $background: #eaffd0;
     align-items: flex-start;
     margin-right: 150px;
     & p {
+      font-size: 1.2em !important;
     }
     & ul {
       margin-right: 20px;
@@ -59,9 +68,8 @@ $background: #eaffd0;
         margin-top: 10px;
         a {
           color: black;
-          font-size: 0.8em;
+          font-size: 0.9em;
           text-decoration: none;
-          
         }
       }
     }
@@ -79,3 +87,5 @@ $background: #eaffd0;
     height: 20vh;
   }
 }
+
+//
