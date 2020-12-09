@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../Content/Card";
 import "../../Scss/Home/Content.scss";
+import Paginate from "../Content/Paginate";
 export interface ContentProps {}
 
 const Content: React.FC<ContentProps> = () => {
@@ -11,6 +12,7 @@ const Content: React.FC<ContentProps> = () => {
         <Card />
         <Card />
         <Card />
+        <Paginate />
       </div>
     </>
   );
