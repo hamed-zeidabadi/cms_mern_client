@@ -53,7 +53,7 @@ $hover: #f38181;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
-    margin-right: 150px;
+    margin-right: 100px;
     & p {
       font-size: 1.2em !important;
     }
@@ -76,9 +76,35 @@ $hover: #f38181;
   }
   // ---- popular ----
   & .popular {
-    border: 1px solid green;
     width: 95%;
     height: 50vh;
+    text-align: center;
+    & p {
+      margin-bottom: 30px;
+      margin-top: -20px;
+      font-size: 1.2em !important;
+    }
+    &_block {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px 0 10px 0;
+
+      & img {
+        width: 30%;
+        height: 30%;
+        border-radius: 6px;
+        margin: 5px;
+      }
+      & a {
+        color: black;
+        font-size: 0.9em;
+        text-decoration: none;
+        margin: 5px;
+      }
+    }
   }
   // ---- tages ----
   & .tagname {

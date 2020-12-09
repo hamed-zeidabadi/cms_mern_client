@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../images/test.jpg";
 export interface PopularProps {}
 
 const Popular: React.FC<PopularProps> = () => {
@@ -7,11 +8,26 @@ const Popular: React.FC<PopularProps> = () => {
       <div className="popular">
         <p>محبوبترین مطالب</p>
         <ul>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
-          <li>دسته بندی</li>
+          <li>
+            <div className="popular_block">
+              <img src={image} alt="" />
+              <a href="#">عنوان مطلب تستی ....</a>
+            </div>
+          </li>
+
+          <li>
+            <div className="popular_block">
+              <img src={image} alt="" />
+              <a href="#">عنوان مطلب تستی ....</a>
+            </div>
+          </li>
+
+          <li>
+            <div className="popular_block">
+              <img src={image} alt="" />
+              <a href="#">عنوان مطلب تستی ....</a>
+            </div>
+          </li>
         </ul>
       </div>
     </>
