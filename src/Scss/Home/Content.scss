@@ -1,15 +1,17 @@
-#content {
-//display main page
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: wrap;
-margin-top: 50px;
+$background: #eaffd069;
+$hover: #f3818111;
 
+#content {
+  //display main page
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:$hover;
 
   //Card
   & .card {
-    background: #fff;
+    background: $background;
     border-radius: 2px;
     display: inline-block;
     height: 380px;
