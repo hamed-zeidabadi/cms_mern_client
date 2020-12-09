@@ -1,5 +1,5 @@
 /* Underline From Center */
-.hvr-underline-from-center {
+.hvr-center {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -8,16 +8,16 @@
   position: relative;
   overflow: hidden;
 }
-.hvr-underline-from-center:before {
+.hvr-center:before {
   content: "";
   position: absolute;
   z-index: -1;
   left: 51%;
   right: 51%;
-  bottom: 0;
+  bottom: -2px;
   background: #f38181;
   opacity: 0.8;
-  height: 100%;
+  height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
   -webkit-transition-duration: 0.3s;
@@ -25,9 +25,9 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-center:hover:before,
-.hvr-underline-from-center:focus:before,
-.hvr-underline-from-center:active:before {
+.hvr-center:hover:before,
+.hvr-center:focus:before,
+.hvr-center:active:before {
   left: 0;
   right: 0;
 }

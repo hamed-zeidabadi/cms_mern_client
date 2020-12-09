@@ -1,4 +1,4 @@
-$background: #eaffd0;
+$background: #eaffd085;
 $hover: #f38181;
 
 #sidebar {
@@ -38,7 +38,7 @@ $hover: #f38181;
     &_icon {
       color: $hover !important;
       position: absolute;
-      right: 310px;
+      right: 250px;
       font-size: 1em;
       opacity: 0.4;
     }
@@ -70,6 +70,7 @@ $hover: #f38181;
           color: black;
           font-size: 0.9em;
           text-decoration: none;
+          padding: 4px 10px;
         }
       }
     }
@@ -108,9 +109,28 @@ $hover: #f38181;
   }
   // ---- tages ----
   & .tagname {
-    border: 1px solid yellow;
     width: 95%;
     height: 20vh;
+    text-align: center;
+    margin-top: 20px;
+    & p {
+      margin-bottom: 30px;
+      margin-top: -20px;
+      font-size: 1.2em !important;
+    }
+
+    & a {
+      display: inline-block;
+      padding: 4px 10px;
+      margin-bottom: 7px;
+      margin-right: 4px;
+      border-radius: 4px;
+      color: #000000;
+      border: 1px solid #ccc;
+      font-size: 11px;
+      text-decoration: none;
+      background-color: transparent;
+    }
   }
 }
 
