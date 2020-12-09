@@ -9,7 +9,7 @@ const Home: React.FC = () => {
           <div className="home_sidebar col-md-3 ">
             <SideBar />
           </div>
-          <div className="home_content col-md-8">
+          <div className="home_content col-md-9">
             <Content />
           </div>
         </div>
