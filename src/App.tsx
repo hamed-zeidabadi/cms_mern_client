@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/Home";
 import Post from "./Pages/Post";
+import Admin from "./Pages/Admin";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,9 @@ const App: React.FC = () => {
             <Route path="/home" component={Home} />
             <Route path="/post/:id">
               <Post />
+            </Route>
+            <Route path="/admin">
+              <Admin />
             </Route>
             <Redirect to="/home" />
           </Switch>

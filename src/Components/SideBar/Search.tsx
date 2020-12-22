@@ -12,12 +12,12 @@ const Search: React.FC<SearchProps> = () => {
   };
   return (
     <>
-      <div>
-        <Link to="/admin" className="sendpost">
-          ارسال مطلب
-        </Link>
-      </div>
       <div className="search">
+        <div>
+          <Link to="/admin" className="sendpost">
+            ارسال مطلب
+          </Link>
+        </div>
         <input
           onChange={(event) => _handleOnChenge(event)}
           type="text"
