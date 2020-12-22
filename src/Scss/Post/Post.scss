@@ -1,0 +1,42 @@
+#post {
+  height: 100vh;
+
+  & .post_sidebar {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  & .post_content {
+    height: 100%;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    //title
+    &_title {
+      font-size: 1.2em !important;
+      margin: 50px 0px 0px 0px;
+    }
+
+    //image
+    &_img {
+      width: 500px;
+      height: 400px;
+      border-radius: 5px;
+      margin: 50px 0px 50px 0px;
+    }
+
+    //description
+    &_description {
+      width: 80%;
+      text-align: center;
+      vertical-align: auto;
+      word-spacing: normal;
+      line-height: 1.8;
+    }
+  }
+}

@@ -54,6 +54,9 @@ $hover: #f38181;
     justify-content: start;
     align-items: flex-start;
     margin-right: 100px;
+    &_mt {
+      margin-top: 50px;
+    }
     & p {
       font-size: 1.2em !important;
     }

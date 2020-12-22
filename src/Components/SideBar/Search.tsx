@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 export interface SearchProps {}
 
 const Search: React.FC<SearchProps> = () => {
@@ -11,6 +12,11 @@ const Search: React.FC<SearchProps> = () => {
   };
   return (
     <>
+      <div>
+        <Link to="/admin" className="sendpost">
+          ارسال مطلب
+        </Link>
+      </div>
       <div className="search">
         <input
           onChange={(event) => _handleOnChenge(event)}

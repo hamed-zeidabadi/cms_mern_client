@@ -1,11 +1,13 @@
 import React from "react";
 
-export interface CategoryProps {}
+export interface CategoryProps {
+  isHome: boolean;
+}
 
-const Category: React.FC<CategoryProps> = () => {
+const Category: React.FC<CategoryProps> = ({ isHome }) => {
   return (
     <>
-      <div className="category">
+      <div className={isHome ? "category" : "category category_mt  "}>
         <p>دسته بندی مطالب</p>
         <ul>
           <li>

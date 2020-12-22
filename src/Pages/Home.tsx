@@ -7,7 +7,7 @@ const Home: React.FC = () => {
       <div id="home" className="container-fluid ">
         <div className="row">
           <div className="home_sidebar col-md-3 ">
-            <SideBar />
+            <SideBar isHome={true} />
           </div>
           <div className="home_content col-md-9">
             <Content />

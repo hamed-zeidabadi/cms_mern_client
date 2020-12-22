@@ -3,14 +3,18 @@ import Category from "../SideBar/Category";
 import Popular from "../SideBar/Popular";
 import Search from "../SideBar/Search";
 import TagName from "../SideBar/TagName";
-export interface SideBarProps {}
+export interface SideBarProps {
+  isHome: boolean;
+}
 
-const SideBar: React.FC<SideBarProps> = () => {
+const SideBar: React.FC<SideBarProps> = ({ isHome }) => {
   return (
     <>
       <div id="sidebar">
-        <Search />
-        <Category />
+        {isHome ? <Search /> : null}
+        <Category 
+        isHome={isHome}
+        />
         <Popular />
         <TagName />
       </div>
