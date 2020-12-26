@@ -36,24 +36,20 @@ const Admin: React.FC<AdminProps> = () => {
               <form onSubmit={_handleSubmitPost}>
                 <input
                   type="text"
-                  title="username"
+                  title="title"
                   placeholder="عنوان مطلب"
                   onChange={(event) => setusername(event.target.value)}
                 />
-                <input
-                  type="password"
-                  title="username"
+                <textarea
+                  title="content"
                   placeholder="توضیحات مطلب"
                   onChange={(event) => setpassword(event.target.value)}
                 />
-                s
-                <input type="file" name="img" id="" />
+
+                <input type="file" name="img" id="img_content" />
                 <button type="submit" className="btn">
                   ارسال
                 </button>
-                <a className="forgot" href="#">
-                  کلمه عبور خود را فراموش کردید ؟{" "}
-                </a>
               </form>
             </div>
           </div>

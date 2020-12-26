@@ -51,7 +51,7 @@
     margin: 0;
     font-weight: 200;
   }
-  .log-form input {
+  .log-form input , .log-form textarea {
     display: block;
     margin: auto auto;
     width: 100%;
@@ -62,7 +62,7 @@
     padding-bottom: 1.25em;
     color: #757575;
   }
-  .log-form input:focus {
+  .log-form input:focus ,log-form textarea:focus {
     outline: none;
   }
   .log-form .btn {

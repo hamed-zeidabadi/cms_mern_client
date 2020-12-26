@@ -61,7 +61,7 @@ $hover: #f38181;
     &_icon {
       color: $hover !important;
       position: absolute;
-      top: 145px;
+      top: 138px;
       right: 250px;
       font-size: 1em;
       opacity: 0.4;
@@ -71,7 +71,7 @@ $hover: #f38181;
   & .category {
     // border: 1px solid blue;
     width: 95%;
-    height: 40vh;
+    height: 35vh;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -105,11 +105,11 @@ $hover: #f38181;
   // ---- popular ----
   & .popular {
     width: 95%;
-    height: 45vh;
+    height: 40vh;
     text-align: center;
     & p {
       margin-bottom: 30px;
-      margin-top: -20px;
+      margin-top: -10px;
       font-size: 1.2em !important;
     }
     &_block {

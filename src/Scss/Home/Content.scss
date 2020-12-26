@@ -4,6 +4,8 @@ $hover: #f3818111;
 #content {
   //display main page
   display: flex;
+  height: 100%;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
