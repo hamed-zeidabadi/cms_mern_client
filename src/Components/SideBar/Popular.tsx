@@ -6,7 +6,7 @@ const Popular: React.FC<PopularProps> = () => {
   return (
     <>
       <div className="popular">
-        <p>محبوبترین مطالب</p>
+        <p>جدیدترین مطالب</p>
         <ul>
           <li>
             <div className="popular_block">
