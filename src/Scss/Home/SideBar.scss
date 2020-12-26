@@ -59,10 +59,9 @@ $hover: #f38181;
     }
 
     &_icon {
+      display: none;
       color: $hover !important;
       position: absolute;
-      top: 138px;
-      right: 250px;
       font-size: 1em;
       opacity: 0.4;
     }
@@ -76,8 +75,7 @@ $hover: #f38181;
     text-align: center;
     flex-direction: column;
     justify-content: start;
-    align-items: flex-start;
-    margin-right: 100px;
+    align-items: center;
     &_mt {
       margin-top: 50px;
     }
@@ -162,3 +160,27 @@ $hover: #f38181;
 }
 
 //
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  #sidebar {
+    & .sendpost {
+    }
+
+    // ---- search ----
+
+    & .search {
+    }
+    // ---- category ----
+    & .category {
+      display: none;
+    }
+    // ---- popular ----
+    & .popular {
+      display: none;
+    }
+    // ---- tages ----
+    & .tagname {
+      display: none;
+    }
+  }
+}
